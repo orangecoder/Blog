@@ -4,10 +4,10 @@
 
 # Site
 title: orangecoder
-subtitle: android nodejs
-description:
+subtitle: android ffmpeg nodejs 
+description: 热爱移动互联网，热爱android开发，热爱nodejs开发
 author: 李晓平
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -64,6 +64,20 @@ pagination_dir: page
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
 theme: yilia
+exclude_generator:
+Plugins:
+- hexo-generator-feed
+- hexo-generator-sitemap
+
+#sitemap
+sitemap:
+  path: sitemap.xml
+
+#Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
