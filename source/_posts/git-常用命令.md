@@ -65,3 +65,6 @@ tags:
 	2) 编辑“.gitmodules”文件，将子模块的相关配置节点删除掉
 	3) 编辑“ .git/config”文件，将子模块的相关配置节点删除掉
 	4) 手动删除子模块残留的目录
+
+### 7. [git乱码解决方案汇总](https://gist.github.com/vkyii/1079783)
+
