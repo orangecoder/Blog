@@ -12,8 +12,6 @@ tags:
 * 在什么情况下使用 startService 或 bindService 或 同时使用startService 和 bindService
 * 在 AndroidManifest.xml 里 Service 元素的常见选项
 
-<!-- more -->
-
 ### 2. [Android中BroadCastReceiver使用](http://www.cnblogs.com/jico/articles/1838293.html)
 * 静态注册
 * 动态注册

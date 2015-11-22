@@ -1,5 +1,5 @@
 ## Blog
-	个人博客（ http://orangecoder.github.io ）
+	个人博客（ http://orangecoder.com ）
 
 ## 部署
 	* 安装nodejs环境

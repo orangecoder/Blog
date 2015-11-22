@@ -15,8 +15,6 @@ tags:
 ### 2. 让gitignore文件生效命令
 	git rm -r --cached .
 
-<!-- more -->	
-
 ### 3. 远程仓库相关命令
 	检出仓库：$ git clone git://github.com/jquery/jquery.git
 	查看远程仓库：$ git remote -v
