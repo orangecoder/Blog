@@ -2,10 +2,10 @@ title: Android 开发总结
 date: 2015-10-22 23:14:32
 tags:
 ---
-### 1. [Android中的Service全面总结](http://www.cnblogs.com/newcj/archive/2011/05/30/2061370.html)
-* Service的种类
+### 1. [Android 中的 Service 全面总结](http://www.cnblogs.com/newcj/archive/2011/05/30/2061370.html)
+* Service 的种类
 * Service 与 Thread 的区别
-* Service的生命周期
+* Service 的生命周期
 * startService 启动服务
 * Local 与 Remote 服务绑定
 * 创建前台服务
@@ -21,3 +21,23 @@ tags:
 * View.post(Runnable)
 * Handler
 * AsyncTask
+
+### 4. [View 事件传递](http://a.codekk.com/detail/Android/Trinea/公共技术点之%20View%20事件传递)
+* Touch 事件都被封装成了 MotionEvent 对象
+* 事件类型分为 ACTION_DOWN, ACTION_UP, ACTION_MOVE, ACTION_POINTER_DOWN, ACTION_POINTER_UP, ACTION_CANCEL
+* 对事件的处理包括三类，分别为传递——dispatchTouchEvent()函数、拦截——onInterceptTouchEvent()函数、消费——onTouchEvent()函数和 OnTouchListener
+
+### 5. [View 绘制流程](http://a.codekk.com/detail/Android/lightSky/公共技术点之%20View%20绘制流程)
+* measure
+* layout
+* draw
+* invalidate(), requestLayout() 
+
+### 6. [Android 动画基础](http://a.codekk.com/detail/Android/lightSky/公共技术点之%20Android%20动画基础)
+* 传统 View 动画: Tween(alpha,scale,translate,rotate), Frame
+* Property Animation: ValueAnimator, ObjectAnimator
+
+### 7. [Android SQlite 总结](http://blog.csdn.net/liuhaomatou/article/details/23797107)
+* Android平台下数据库相关类: SQLiteOpenHelper, SQLiteDatabase, SQLiteCursor
+* SQLite内建语法表
+* SQLite内建函数表
