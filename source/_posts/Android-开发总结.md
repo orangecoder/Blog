@@ -19,8 +19,8 @@ tags:
 ### 3. [Android中的几种多线程实现 ](http://blog.sina.com.cn/s/blog_74e9d98d0101g9iw.html)
 * Activity.runOnUiThread(Runnable)
 * View.post(Runnable)
-* Handler
-* AsyncTask
+* Handler, HandlerThread 
+* AsyncTask, LoaderManager
 
 ### 4. [View 事件传递](http://a.codekk.com/detail/Android/Trinea/公共技术点之%20View%20事件传递)
 * Touch 事件都被封装成了 MotionEvent 对象
@@ -41,3 +41,10 @@ tags:
 * Android平台下数据库相关类: SQLiteOpenHelper, SQLiteDatabase, SQLiteCursor
 * SQLite内建语法表
 * SQLite内建函数表
+
+### 8. [Android 布局优化](http://www.infoq.com/cn/articles/android-optimise-layout)
+* 尽量多使用 RelativeLayout，不要使用绝对布局 AbsoluteLayout
+* 将可复用的组件抽取出来并通过 <include/> 标签使用
+* 使用 <ViewStub/> 标签来加载一些不常用的布局
+* 使用 <merge/> 标签减少布局的嵌套层次
+
